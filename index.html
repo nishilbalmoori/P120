@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="src/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>P120</title>
+    </head>
+    <body>
+        <center>
+            <table class = "table table-dark table-hover">
+                <tr>
+                    <th class = "img">Image </th>
+                    <th class = "google_lens_accuracy" >Goolge Lens</th>
+                    <th class = "mobilenet_accuracy">Mobilenet</th>
+                </tr>
+                    <td>    
+                        <img src = "https://www.hydroflask.com/media/catalog/product/cache/9177cfe059281270017bc29637323e6d/s/2/s24sx-clementine.jpg">
+                    </td>
+                    <td class = "google_lens_accuracy">Google Lens Accuracy: 37%</td>
+                    <td class = "mobilenet_accuracy">Mobilenet Accuracy: 57%</td>
+                <tr>
+                    <td>    
+                        <img src = "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000">
+                    </td>
+                    <td class = "google_lens_accuracy">Google Lens Accuracy: 73%</td>
+                    <td class = "mobilenet_accuracy">Mobilenet Accuracy: 29%</td>
+                </tr>
+                <tr>
+                    <td>    
+                        <img src = "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6347/6347796_sd.jpg">
+                    </td>
+                    <td class = "google_lens_accuracy">Google Lens Accuracy: 88%</td>
+                    <td class = "mobilenet_accuracy">Mobilenet Accuracy: 69%
+                        <br>
+                        <button id = "thing" class = "btn btn-dark">Haha Funny Number lol
+                            <h4>&#x1F602;</h4></button>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <script src = "src/script.js"></script>
+    </body>
+</html>

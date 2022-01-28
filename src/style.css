@@ -1,0 +1,26 @@
+td img{
+    width: 300px;
+    height: 300px;
+    border-width: 2px;
+    border-color:#64ff00;
+    border-style:solid;
+    border-radius: 20px;
+}
+.mobilenet_accuracy{
+    font-size: 16px;
+    color:rgb(255,0,100);
+}
+.google_lens_accuracy{
+    font-size: 16px;
+    color:rgb(0, 100, 255);
+}
+.img{
+    color:rgb(100,255,0)
+}
+#thing{
+    font-size: 16px;
+    color:rgb(255,0,100);
+}
+td h4{
+    font-size: 24px;
+}
